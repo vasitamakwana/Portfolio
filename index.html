@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasita Makwana | Senior Web Designer</title>
+    <!-- Premium Font: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Noise Texture Overlay for Premium Feel -->
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Vasita<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle magnetic" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary magnetic">Let's Talk</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <!-- 1. Hero Section -->
+        <section class="hero-section">
+            <div class="hero-single-column">
+                <!-- Main Intro Card -->
+                <div class="bento-card hero-main reveal-up">
+                    <div class="hero-badge">
+                        <span class="status-dot"></span> Available for new opportunities
+                    </div>
+                    <h1 class="hero-title">Building high-performance, user-focused
+                        <span class="text-gradient">web interfaces</span>
+                    </h1>
+                    <p class="hero-subtitle">I’m Vasita Makwana, a Web Designer crafting modern, scalable UI experiences
+                        using React & Tailwind CSS. I transform Figma designs into clean, production-ready web
+                        interfaces.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#work" class="btn btn-primary magnetic">View Selected Work</a>
+                        <div class="social-pills">
+
+                            <a href="https://www.linkedin.com/in/vasita-m-642579170" class="social-pill magnetic"
+                                target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Separate Marquee Section -->
+        <section class="marquee-section reveal-up">
+            <div class="bento-card marquee-card">
+                <div class="marquee-container">
+                    <div class="marquee-content">
+                        <span>UI/UX Design</span> • <span>React</span> • <span>Figma</span> • <span>GSAP</span> •
+                        <span>Tailwind</span> • <span>SCSS</span> • <span>JavaScript</span> •
+                        <span>UI/UX Design</span> • <span>React</span> • <span>Figma</span> • <span>GSAP</span> •
+                        <span>Tailwind</span> • <span>SCSS</span> • <span>JavaScript</span> •
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Selected Work Section -->
+        <section id="work" class="section-padding">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Selected Work</h2>
+                <p class="section-desc">A collection of premium projects spanning various industries.</p>
+            </div>
+
+            <div class="work-grid">
+                <!-- Project 1: Astrology -->
+                <div class="bento-card work-card reveal-up tilt-card">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/Astrology/homepage.png" alt="Astrology Platform" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/Astrology/homepage.png,assets/portfolios/Astrology/viewkundali.png,assets/portfolios/Astrology/user profile.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Platform</span>
+                        </div>
+                        <h3 class="work-title">Astrology Platform</h3>
+                    </div>
+                </div>
+
+                <!-- Project 2: AIF -->
+                <div class="bento-card work-card reveal-up tilt-card" style="transition-delay: 0.1s;">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/AIF/dashboard.png" alt="AIF Dashboard" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/AIF/dashboard.png,assets/portfolios/AIF/document-repo.png,assets/portfolios/AIF/login.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">Dashboard UI</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                        <h3 class="work-title">AIF Admin Dashboard</h3>
+                    </div>
+                </div>
+
+                <!-- Project 3: Craftmedia -->
+                <div class="bento-card work-card reveal-up tilt-card" style="transition-delay: 0.2s;">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/Craftmedia/mockup.png" alt="Craftmedia Studio" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/Craftmedia/mockup.png,assets/portfolios/Craftmedia/campaign.png,assets/portfolios/Craftmedia/blog.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">Agency</span>
+                            <span class="tag">Creative</span>
+                        </div>
+                        <h3 class="work-title">Craftmedia Studio</h3>
+                    </div>
+                </div>
+
+                <!-- Project 4: E-log -->
+                <div class="bento-card work-card reveal-up tilt-card">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/E-log/roster.png" alt="E-log System" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/E-log/roster.png,assets/portfolios/E-log/pm activity.png,assets/portfolios/E-log/unit.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">Enterprise UI</span>
+                            <span class="tag">SaaS</span>
+                        </div>
+                        <h3 class="work-title">E-log System</h3>
+                    </div>
+                </div>
+
+                <!-- Project 6: Kara Laser -->
+                <div class="bento-card work-card reveal-up tilt-card" style="transition-delay: 0.2s;">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/Kara Laser/Homepage.png" alt="Kara Laser" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/Kara Laser/Homepage.png,assets/portfolios/Kara Laser/services.png,assets/portfolios/Kara Laser/blog.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">Skincare</span>
+                            <span class="tag">Website</span>
+                        </div>
+                        <h3 class="work-title">Kara Laser</h3>
+                    </div>
+                </div>
+
+                <!-- Project 7: LMS-web -->
+                <div class="bento-card work-card reveal-up tilt-card">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/LMS-web/corporate-trainng.png" alt="LMS Web" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/LMS-web/corporate-trainng.png,assets/portfolios/LMS-web/live-program.png,assets/portfolios/LMS-web/skills.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">Education</span>
+                            <span class="tag">Web App</span>
+                        </div>
+                        <h3 class="work-title">LMS Web Platform</h3>
+                    </div>
+                </div>
+
+                <!-- Project 11: TAXFAQ -->
+                <div class="bento-card work-card reveal-up tilt-card" style="transition-delay: 0.1s;">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/TAXFAQ/homepage.png" alt="TAXFAQ Portal" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/TAXFAQ/homepage.png,assets/portfolios/TAXFAQ/terms.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">Finance</span>
+                            <span class="tag">Web Platform</span>
+                        </div>
+                        <h3 class="work-title">TAXFAQ Portal</h3>
+                    </div>
+                </div>
+
+                <!-- Project: Rasoftware -->
+                <div class="bento-card work-card reveal-up tilt-card" style="transition-delay: 0.2s;">
+                    <div class="work-image-container">
+                        <img src="assets/portfolios/Rasoftware/homepage.png" alt="Rasoftware" class="work-image">
+                        <div class="work-overlay">
+                            <a href="#" class="view-btn magnetic"
+                                data-gallery="assets/portfolios/Rasoftware/homepage.png,assets/portfolios/Rasoftware/word-mine-blog.png,assets/portfolios/Rasoftware/privacy-policy.png"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-tags">
+                            <span class="tag">Corporate</span>
+                            <span class="tag">Website</span>
+                        </div>
+                        <h3 class="work-title">Rasoftware Official</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. About Me Section -->
+        <section id="about" class="section-padding">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="bento-card bio-card reveal-up">
+                    <div class="about-text">
+                        <p>I’m a Web Designer with 5+ years of experience building responsive and user-focused web
+                            interfaces.</p>
+                        <p>I enjoy creating structured UI systems that are clean, scalable, and easy to maintain. My
+                            focus is not just visuals, but usability, consistency, and performance.</p>
+                        <p>I work closely with design tools like Figma and convert them into production-ready frontend
+                            using modern technologies like React and Tailwind CSS.</p>
+                    </div>
+                </div>
+                <div class="bento-card philosophy-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="philosophy-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>My Philosophy</h3>
+                    <p>Design is not just how it looks, it's how it works. I focus on pixel-perfect execution while
+                        ensuring a seamless and intuitive user experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Work Experience Section -->
+        <section id="experience" class="section-padding">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+
+            <div class="experience-timeline">
+                <div class="bento-card experience-card reveal-up">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Honeycomb Softwares Pvt. Ltd.</h3>
+                            <p class="role">Senior Web Designer</p>
+                        </div>
+                        <span class="exp-date">Jan 2025 – Present</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Developed responsive and mobile-first websites using
+                            HTML5, CSS3 and SCSS.</li>
+                        <li>Implemented modern UI components using Tailwind CSS,
+                            Reactstrap and Material UI.</li>
+                        <li>Converted design prototypes from Figma into
+                            pixel-perfect responsive web pages.</li>
+                        <li>Created interactive UI animations using CSS and
+                            modern animation libraries.</li>
+                        <li>Optimized website layouts for better performance and
+                            cross-browser compatibility.</li>
+                        <li>Collaborated with developers and designers to
+                            improve user interface and user experience.</li>
+                    </ul>
+                </div>
+
+                <div class="bento-card experience-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Evolution Infosystem (I) Pvt. Ltd.</h3>
+                            <p class="role">Web Designer</p>
+                        </div>
+                        <span class="exp-date">Dec 2021 – Apr 2024</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Developed reusable UI components and responsive
+                            layouts for enterprise applications.</li>
+                        <li>Built responsive business and client websites with
+                            modern UI layouts.</li>
+                        <li>Transformed design mockups from Figma into
+                            responsive front-end code.</li>
+                        <li>Developed reusable UI components using Bootstrap and
+                            SCSS.</li>
+                        <li>Implemented responsive layouts for mobile, tablet
+                            and desktop devices.</li>
+                        <li>Improved page structure, accessibility and
+                            cross-browser compatibility.</li>
+                    </ul>
+                </div>
+
+                <div class="bento-card experience-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Ace Infoway Pvt. Ltd.</h3>
+                            <p class="role">Web Designer</p>
+                        </div>
+                        <span class="exp-date">Aug 2021 – Oct 2021</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Worked on front-end UI development for client
+                            websites.</li>
+                        <li>Built responsive layouts using HTML, CSS and
+                            Bootstrap framework.</li>
+                        <li>Assisted in improving user interface elements and
+                            responsive design structure.</li>
+                        <li>Collaborated with development team to deliver high
+                            quality website interfaces.</li>
+                    </ul>
+                </div>
+
+                <div class="bento-card experience-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Logistic Infotech Pvt. Ltd.</h3>
+                            <p class="role">Web Designer</p>
+                        </div>
+                        <span class="exp-date">Aug 2020 – Aug 2021</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Designed and developed responsive website layouts
+                            for various clients.</li>
+                        <li>Implemented modern UI components using HTML, CSS and
+                            JavaScript.</li>
+                        <li>Optimized UI layouts for better usability and
+                            cross-browser performance.</li>
+                        <li>Worked with designers and developers to convert
+                            design concepts into functional web pages.</li>
+                    </ul>
+                </div>
+
+                <div class="bento-card experience-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Sukhadaam Infotech Pvt. Ltd.</h3>
+                            <p class="role">Web Designer</p>
+                        </div>
+                        <span class="exp-date">Jul 2019 – Apr 2020</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Created responsive website designs with clean and
+                            modern layouts.</li>
+                        <li>Built UI components using HTML, CSS and Bootstrap
+                            framework.</li>
+                        <li>Assisted in improving UI structure and layout
+                            consistency across pages.</li>
+                    </ul>
+                </div>
+
+                <div class="bento-card experience-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Sphere Rays Technolabs Pvt. Ltd.</h3>
+                            <p class="role">Trainee Web Designer</p>
+                        </div>
+                        <span class="exp-date">Dec 2018 – Jun 2019</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Learned and implemented fundamental web design
+                            concepts.</li>
+                        <li>Developed basic responsive layouts using HTML and
+                            CSS.</li>
+                        <li>Assisted senior developers in front-end UI
+                            development tasks.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Skills / Tech Stack (Arsenal Section) -->
+        <section id="arsenal" class="section-padding">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Skills / Tech Stack</h2>
+            </div>
+
+            <div class="arsenal-grid">
+                <div class="bento-card arsenal-card reveal-up">
+                    <div class="arsenal-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3 class="arsenal-title">Frontend</h3>
+                    <div class="tools-wrap">
+                        <span class="tool-pill">HTML5</span> <span class="tool-pill">CSS3</span> <span
+                            class="tool-pill">SCSS</span> <span class="tool-pill">JavaScript</span>
+                        <span class="tool-pill">Responsive Web Design</span> <span class="tool-pill">Mobile-First</span>
+                    </div>
+                </div>
+
+                <div class="bento-card arsenal-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="arsenal-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3 class="arsenal-title">Frameworks</h3>
+                    <div class="tools-wrap">
+                        <span class="tool-pill">React</span> <span class="tool-pill">Next.js</span> <span
+                            class="tool-pill">Tailwind CSS</span> <span class="tool-pill">Bootstrap</span> <span
+                            class="tool-pill">Component UI</span>
+                    </div>
+                </div>
+
+                <div class="bento-card arsenal-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="arsenal-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3 class="arsenal-title">UI & Animation</h3>
+                    <div class="tools-wrap">
+                        <span class="tool-pill">CSS Animations</span> <span class="tool-pill">GSAP</span> <span
+                            class="tool-pill">Scroll Animations</span> <span class="tool-pill">Micro-Interactions</span>
+                    </div>
+                </div>
+
+                <div class="bento-card arsenal-card reveal-up">
+                    <div class="arsenal-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3 class="arsenal-title">Design Tools</h3>
+                    <div class="tools-wrap">
+                        <span class="tool-pill">Figma</span> <span class="tool-pill">Adobe Photoshop</span> <span
+                            class="tool-pill">Wireframing</span> <span class="tool-pill">UI Systems</span>
+                    </div>
+                </div>
+
+                <div class="bento-card arsenal-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="arsenal-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h3 class="arsenal-title">Optimization</h3>
+                    <div class="tools-wrap">
+                        <span class="tool-pill">Performance Optimization</span> <span class="tool-pill">SEO
+                            Markup</span>
+                    </div>
+                </div>
+
+                <div class="bento-card arsenal-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="arsenal-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3 class="arsenal-title">Dev & AI Tools</h3>
+                    <div class="tools-wrap">
+                        <span class="tool-pill">Git & GitHub</span> <span class="tool-pill">npm</span> <span
+                            class="tool-pill">VS Code</span> <span class="tool-pill">ChatGPT</span> <span
+                            class="tool-pill">Cursor</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Let's Build / Contact Area -->
+        <section id="contact" class="footer-area">
+            <div class="contact-bento center-content reveal-up">
+                <h2 class="huge-title" style="text-align: center; margin: 0;">Let's build<br>something <span
+                        class="text-gradient">extraordinary.</span></h2>
+                <p class="contact-desc">Have a project idea or need help building a modern, responsive website? I'm
+                    always open to discussing new projects, creative ideas, and collaboration opportunities.</p>
+
+                <div class="contact-action-row">
+                    <a href="mailto:vasitamakwana@gmail.com" class="btn btn-primary magnetic"
+                        style="font-size: 1.2rem; padding: 0.7rem 2rem ">Email Me</a>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vasita Makwana. Designed & built with passion.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/vasita-m-642579170" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal">
+        <button class="lightbox-close" id="lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="slider-btn prev-btn" id="lightbox-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="slider-btn next-btn" id="lightbox-next"><i class="fa-solid fa-chevron-right"></i></button>
+
+        <div class="lightbox-slider-wrapper">
+            <div class="lightbox-track" id="lightbox-track">
+                <!-- Images injected here by JS -->
+            </div>
+        </div>
+
+        <div class="lightbox-dots" id="lightbox-dots"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

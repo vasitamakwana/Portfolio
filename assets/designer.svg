@@ -1,0 +1,175 @@
+<svg viewBox="0 0 300 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(139,92,246,0.25)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background ambient glow -->
+  <ellipse cx="150" cy="200" rx="140" ry="140" fill="url(#glow)"/>
+
+  <!-- Desk surface -->
+  <rect x="10" y="278" width="280" height="10" rx="4" fill="rgba(255,255,255,0.07)"/>
+  <rect x="28" y="285" width="8" height="50" rx="2" fill="rgba(255,255,255,0.04)"/>
+  <rect x="264" y="285" width="8" height="50" rx="2" fill="rgba(255,255,255,0.04)"/>
+
+  <!-- Monitor bezel -->
+  <rect x="62" y="152" width="176" height="114" rx="10" fill="rgba(18,14,30,0.9)" stroke="rgba(139,92,246,0.35)" stroke-width="1.5"/>
+  <!-- Monitor screen -->
+  <rect x="71" y="161" width="158" height="96" rx="5" fill="rgba(14,10,22,1)"/>
+  <!-- Screen glow layer -->
+  <rect x="71" y="161" width="158" height="96" rx="5" fill="rgba(139,92,246,0.08)"/>
+
+  <!-- App sidebar -->
+  <rect x="77" y="167" width="30" height="83" rx="3" fill="rgba(255,255,255,0.03)"/>
+  <rect x="82" y="174" width="20" height="4" rx="2" fill="rgba(139,92,246,0.7)"/>
+  <rect x="82" y="182" width="16" height="3" rx="2" fill="rgba(255,255,255,0.18)"/>
+  <rect x="82" y="189" width="18" height="3" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="82" y="196" width="13" height="3" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="82" y="203" width="17" height="3" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="82" y="210" width="14" height="3" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="82" y="217" width="16" height="3" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="82" y="224" width="12" height="3" rx="2" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Main canvas / work area -->
+  <rect x="112" y="167" width="111" height="83" rx="3" fill="rgba(255,255,255,0.02)"/>
+  <!-- Top bar -->
+  <rect x="115" y="170" width="105" height="14" rx="2" fill="rgba(255,255,255,0.04)"/>
+  <rect x="119" y="174" width="35" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="208" cy="177" r="3" fill="rgba(139,92,246,0.7)"/>
+  <circle cx="200" cy="177" r="3" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="216" cy="177" r="3" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Bento card preview 1 (purple) -->
+  <rect x="115" y="188" width="52" height="38" rx="4" fill="rgba(139,92,246,0.3)" stroke="rgba(139,92,246,0.5)" stroke-width="0.8"/>
+  <rect x="120" y="194" width="30" height="5" rx="2" fill="rgba(255,255,255,0.6)"/>
+  <rect x="120" y="203" width="22" height="3" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="120" y="210" width="28" height="3" rx="2" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Bento card preview 2 (dark) -->
+  <rect x="171" y="188" width="47" height="38" rx="4" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.09)" stroke-width="0.8"/>
+  <rect x="176" y="194" width="22" height="5" rx="2" fill="rgba(255,255,255,0.25)"/>
+  <rect x="176" y="203" width="34" height="3" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="176" y="210" width="26" height="3" rx="2" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Monitor stand -->
+  <rect x="136" y="264" width="28" height="16" rx="2" fill="rgba(255,255,255,0.06)"/>
+  <rect x="118" y="278" width="64" height="5" rx="2" fill="rgba(255,255,255,0.05)"/>
+
+  <!-- Chair back -->
+  <rect x="104" y="208" width="92" height="72" rx="16" fill="rgba(24,16,44,0.85)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <rect x="116" y="220" width="68" height="48" rx="10" fill="rgba(139,92,246,0.07)"/>
+
+  <!-- Body / blouse -->
+  <path d="M116 272 Q104 260 104 248 L104 236 Q150 248 196 236 L196 248 Q196 260 184 272 Z" fill="rgba(139,92,246,0.55)"/>
+  <!-- Collar -->
+  <path d="M140 236 Q150 244 160 236" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Shoulders -->
+  <ellipse cx="104" cy="246" rx="15" ry="11" fill="rgba(139,92,246,0.45)"/>
+  <ellipse cx="196" cy="246" rx="15" ry="11" fill="rgba(139,92,246,0.45)"/>
+
+  <!-- Neck -->
+  <rect x="143" y="218" width="14" height="22" rx="5" fill="rgba(240,200,170,0.5)"/>
+
+  <!-- Arms -->
+  <path d="M104 246 Q78 258 74 274" stroke="rgba(139,92,246,0.45)" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M196 246 Q222 258 226 274" stroke="rgba(139,92,246,0.45)" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <!-- Hands on desk -->
+  <ellipse cx="74" cy="276" rx="11" ry="8" fill="rgba(240,200,170,0.45)"/>
+  <ellipse cx="226" cy="276" rx="11" ry="8" fill="rgba(240,200,170,0.45)"/>
+
+  <!-- Head (skin) -->
+  <ellipse cx="150" cy="198" rx="27" ry="30" fill="rgba(240,200,170,0.55)" stroke="rgba(240,200,170,0.08)" stroke-width="1"/>
+
+  <!-- Hair – long dark with purple tint -->
+  <!-- Top crown -->
+  <path d="M122 190 Q124 160 150 157 Q176 160 178 190" fill="rgba(30,14,55,0.95)"/>
+  <!-- Left side hair -->
+  <path d="M122 190 Q112 208 113 236 Q117 244 124 238 Q118 216 128 202 Z" fill="rgba(30,14,55,0.9)"/>
+  <!-- Right side hair -->
+  <path d="M178 190 Q188 208 187 236 Q183 244 176 238 Q182 216 172 202 Z" fill="rgba(30,14,55,0.9)"/>
+  <!-- Hair highlight -->
+  <path d="M136 159 Q150 155 164 159" stroke="rgba(120,70,220,0.35)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyebrows -->
+  <path d="M135 191 Q140 188 145 191" stroke="rgba(30,14,55,0.7)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M155 191 Q160 188 165 191" stroke="rgba(30,14,55,0.7)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="141" cy="198" rx="5" ry="4" fill="rgba(30,14,55,0.85)"/>
+  <ellipse cx="160" cy="198" rx="5" ry="4" fill="rgba(30,14,55,0.85)"/>
+  <!-- Eye shine -->
+  <circle cx="143" cy="196" r="1.5" fill="rgba(255,255,255,0.9)"/>
+  <circle cx="162" cy="196" r="1.5" fill="rgba(255,255,255,0.9)"/>
+
+  <!-- Glasses -->
+  <rect x="133" y="194" width="14" height="10" rx="3.5" fill="none" stroke="rgba(139,92,246,0.8)" stroke-width="1.3"/>
+  <rect x="152" y="194" width="14" height="10" rx="3.5" fill="none" stroke="rgba(139,92,246,0.8)" stroke-width="1.3"/>
+  <line x1="147" y1="199" x2="152" y2="199" stroke="rgba(139,92,246,0.7)" stroke-width="1.1"/>
+  <line x1="122" y1="198" x2="133" y2="198" stroke="rgba(139,92,246,0.5)" stroke-width="1"/>
+  <line x1="166" y1="198" x2="178" y2="198" stroke="rgba(139,92,246,0.5)" stroke-width="1"/>
+
+  <!-- Nose -->
+  <path d="M148 204 Q150 208 152 204" stroke="rgba(200,150,110,0.4)" stroke-width="1" fill="none" stroke-linecap="round"/>
+
+  <!-- Smile -->
+  <path d="M143 213 Q150 219 157 213" stroke="rgba(200,140,100,0.7)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Ear left -->
+  <ellipse cx="123" cy="200" rx="5" ry="7" fill="rgba(230,185,155,0.4)"/>
+  <!-- Ear right -->
+  <ellipse cx="177" cy="200" rx="5" ry="7" fill="rgba(230,185,155,0.4)"/>
+
+  <!-- Earring left -->
+  <circle cx="123" cy="205" r="2.5" fill="rgba(139,92,246,0.8)"/>
+  <!-- Earring right -->
+  <circle cx="177" cy="205" r="2.5" fill="rgba(139,92,246,0.8)"/>
+
+  <!-- Keyboard -->
+  <rect x="72" y="273" width="95" height="12" rx="4" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+  <rect x="76" y="276" width="7" height="5" rx="1" fill="rgba(139,92,246,0.4)"/>
+  <rect x="86" y="276" width="7" height="5" rx="1" fill="rgba(255,255,255,0.07)"/>
+  <rect x="96" y="276" width="7" height="5" rx="1" fill="rgba(255,255,255,0.07)"/>
+  <rect x="106" y="276" width="7" height="5" rx="1" fill="rgba(255,255,255,0.07)"/>
+  <rect x="116" y="276" width="7" height="5" rx="1" fill="rgba(255,255,255,0.07)"/>
+  <rect x="126" y="276" width="7" height="5" rx="1" fill="rgba(255,255,255,0.07)"/>
+  <rect x="136" y="276" width="22" height="5" rx="1" fill="rgba(255,255,255,0.05)"/>
+
+  <!-- Mouse -->
+  <ellipse cx="228" cy="277" rx="9" ry="11" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="228" y1="267" x2="228" y2="274" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- ── Floating UI Badges ── -->
+  <!-- Color palette (top-left) -->
+  <rect x="18" y="124" width="52" height="22" rx="8" fill="rgba(14,10,22,0.7)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="31" cy="135" r="6" fill="rgba(139,92,246,0.85)"/>
+  <circle cx="44" cy="135" r="6" fill="rgba(255,255,255,0.55)"/>
+  <circle cx="57" cy="135" r="6" fill="rgba(99,102,241,0.75)"/>
+
+  <!-- Code tag (top-right) -->
+  <rect x="230" y="115" width="56" height="26" rx="8" fill="rgba(14,10,22,0.7)" stroke="rgba(139,92,246,0.35)" stroke-width="1"/>
+  <text x="237" y="133" font-size="11" fill="rgba(139,92,246,0.95)" font-family="monospace">&lt;/&gt;</text>
+
+  <!-- Figma circles badge (left) -->
+  <rect x="16" y="190" width="40" height="40" rx="10" fill="rgba(14,10,22,0.7)" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+  <circle cx="28" cy="202" r="7" fill="rgba(255,100,80,0.65)"/>
+  <circle cx="28" cy="218" r="7" fill="rgba(139,92,246,0.65)"/>
+  <circle cx="44" cy="202" r="7" fill="rgba(255,170,60,0.65)"/>
+  <circle cx="44" cy="218" r="7" fill="rgba(60,210,140,0.55)"/>
+  <circle cx="36" cy="210" r="7" fill="rgba(80,130,255,0.65)"/>
+
+  <!-- Cursor / pointer icon (right) -->
+  <rect x="244" y="175" width="40" height="40" rx="10" fill="rgba(14,10,22,0.7)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <path d="M258 184 L258 206 L263 200 L268 212 L272 410 L267 194 L276 194 Z" fill="rgba(255,255,255,0.3)" transform="scale(0.75) translate(93 55)"/>
+  <text x="252" y="203" font-size="14" fill="rgba(255,255,255,0.35)" font-family="monospace">✦</text>
+
+  <!-- Sparkles / stars -->
+  <circle cx="246" cy="150" r="2.5" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="54" cy="164" r="2" fill="rgba(139,92,246,0.8)"/>
+  <circle cx="76" cy="96" r="2" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="250" cy="200" r="2" fill="rgba(139,92,246,0.6)"/>
+  <circle cx="28" cy="158" r="1.5" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="275" cy="240" r="1.5" fill="rgba(139,92,246,0.4)"/>
+</svg>
